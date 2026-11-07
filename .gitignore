@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+results/logs/
+
+# 市場データと日次系列は再配布しない（DATA_POLICY.md を参照）
+data/
+results/s1_wealth_paths.csv
+results/s4_bands_h21.csv
+results/s4_bands_h63.csv
